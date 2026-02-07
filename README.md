@@ -1,4 +1,4 @@
-# Playwright Automation Project
+# UI & API Automation - Playwright
 
 ## Overview
 This repository contains UI and API automation implemented using Playwright with JavaScript.  
