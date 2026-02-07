@@ -10,6 +10,7 @@ test('Login, search book, validate and write details', async ({ page }) => {
 
   await page.click('#login');
 
+  // enter the user details and login 
   await page.fill('#userName', USERNAME);
   await page.fill('#password', PASSWORD);
   await page.click('#login');

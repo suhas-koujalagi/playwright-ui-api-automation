@@ -37,6 +37,23 @@ The API automation performs the following operations:
 ReqRes is a public mock API. From the execution environment used, API requests (POST/GET/PUT) returned **403 Forbidden** due to access restrictions.
 The automation executes all required API calls, validates the actual response status codes received, and logs the observed behavior.
 
+## Project Structure
+```
+.
+├── tests
+│   ├── ui
+│   │   └── bookStore.spec.js
+│   └── api
+│       └── reqres.spec.js
+├── utils
+│   └── fileWriter.js
+├── output
+│   └── bookDetails.txt
+├── playwright.config.js
+├── package.json
+└── README.md
+```
+
 ## Running the Tests
 Install dependencies: 
 ```
